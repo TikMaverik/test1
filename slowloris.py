@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+from cgi import test
 import logging
 import random
 import socket
@@ -220,3 +221,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    test
